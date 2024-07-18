@@ -1,0 +1,46 @@
+inventory-sales-system/
+│
+├── inventory-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── inventoryservice/
+│   │   │   │               ├── controller/
+│   │   │   │               ├── model/
+│   │   │   │               ├── repository/
+│   │   │   │               ├── service/
+│   │   │   │               └── InventoryServiceApplication.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── inventoryservice/
+│   └── pom.xml
+│
+├── online-sales-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── onlinesalesservice/
+│   │   │   │               ├── controller/
+│   │   │   │               ├── model/
+│   │   │   │               ├── repository/
+│   │   │   │               ├── service/
+│   │   │   │               └── OnlineSalesServiceApplication.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── onlinesalesservice/
+│   └── pom.xml
+│
+├── docker-compose.yml
+└── README.md
